@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BTTF'; /*a name to be used later*/
+    src: url('BTTF.ttf'); /*URL to font*/
+}
+body { 
+    text-align: center;
+    background-color: #00FF00;
+    font-family:'BTTF';
+}
