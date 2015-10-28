@@ -1,3 +1,5 @@
+/*staff*/
+ a {text-decoration: none;}
 @font-face {
     font-family: 'BTTF'; /*a name to be used later*/
     src: url('BTTF.ttf'); /*URL to font*/
