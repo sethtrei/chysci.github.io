@@ -9,7 +9,6 @@ function startup(){
     }else {
       myFirebaseRef.set({clicks:clickAmt});
     }
-    alert(snapshot.val());
   });
 }
 function updateClicks(){
@@ -37,7 +36,6 @@ function updateClicks(){
   });
   setTimeout(updateClicks, (1000/60));
 }
-alert(document.getElementById("the-button"));
 function clicked(){
   numberOfClicks++;
   started = 1;
@@ -45,4 +43,3 @@ function clicked(){
 var numberOfClicks = clickAmt;
 startup();
 updateClicks();
-alert("Startup");

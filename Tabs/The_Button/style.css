@@ -38,3 +38,7 @@ body{
     font-family:'BTTF';
     text-align:center;
 }
+.display4DaButton{
+    font-family:'BTTF';
+    margin-top:-175px; /*Yeah... There was a glitch, so it needed to be negative pixels from the top*/
+}
