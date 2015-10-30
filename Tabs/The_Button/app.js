@@ -34,11 +34,12 @@ function updateClicks(){
   myFirebaseRef.child("clicks").on("value", function(snapshot){
     document.getElementById("myLink").innerHTML=snapshot.val();
   });
-  setTimeout(updateClicks, (1000/60));
+  setTimeout(updateClicks, (10000));
 }
 function clicked(){
   numberOfClicks++;
   started = 1;
+  updateClicks();
 }
 var numberOfClicks = clickAmt;
 startup();
