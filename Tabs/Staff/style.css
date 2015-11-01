@@ -6,25 +6,50 @@
 }
 body { 
     text-align: center;
-    background-color: #00FF00;
+    background-color: #8A1616;
     font-family:'BTTF';
+    background-size:cover;
+    height:cover;
 }
 .selector {
-             font-size: 25px;
-              text-align: left; 
-              position: fixed;
-              width: 100%;
-              height: 25px;
-              top: 0;
-              left: 0;
-              padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
-              background: #9DE6FF; /* some styling */
-              border-bottom: 1px solid #333; /* some styling */
-              
+     font-size: 25px;
+     text-align: left; 
+     position: fixed;
+     width: 100%;
+     height: 25px;
+     top: 0;
+     left: 0;
+     padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+     background: #000000; /* some styling */
+     border-bottom: 4px solid #5D5D5D; /* some styling */
+     display:flex;
 }
 .round {
      border-radius: 50%;
      width : 33px;
      height: 33px;
      margin-top:-5px;
+}
+
+.colorSensor{
+    background-image: url("https://sethtrei.github.io/chysci.github.io/Resources/color_sensor_redResized.jpg");
+    background-size: cover;
+    height:852px;
+    margin-top:-15px;
+}
+.text{
+    margin-top:100px;
+    color:#FFFFFF;
+}
+.big{
+    height:100px;
+}
+a{
+    color:#00FF00;
+}
+.page{
+    height:33;
+    padding:4px 2px;
+    outline:#5D5D5D solid 2px;
+    color:#CC0000;
 }
