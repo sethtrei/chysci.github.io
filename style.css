@@ -40,6 +40,10 @@ img{
 
 body{ 
     text-align: center;
-    background-color: #9DE6FF;
+    background-image: url("Resources/ultrasonic_sensor_darkGreen.jpg");
     font-family: 'BTTF';
+    background-size: cover;
+}
+a{
+    color:#CC0000;
 }
