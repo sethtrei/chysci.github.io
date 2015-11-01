@@ -40,10 +40,37 @@ img{
 
 body{ 
     text-align: center;
-    background-image: url("Resources/ultrasonic_sensor_darkGreen.jpg");
     font-family: 'BTTF';
-    background-size: cover;
+    background-color:#14BE15;
 }
 a{
     color:#CC0000;
+}
+.ultraSonic{
+    background-image: url("Resources/ultrasonic_sensor_darkGreen.jpg");
+    background-size: cover;
+    height:100%;
+    margin-top:-45px;
+}
+.text{
+    margin-top:100px;
+}
+
+footer{
+    height:50px;
+    width:100%;
+    background-color:black;
+    padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
+    border-top: 1px solid #333; /* some styling */
+    margin-left:-10px;
+    margin-top:-70px;
+    left: 0;
+}
+.email{
+    background-color:#00FF00;
+    border-radius:50%;
+    outline:#00FF00;
+    outline-width:50%;
+    height:50px;
+    width:50px;
 }
