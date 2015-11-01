@@ -16,8 +16,9 @@
      top: 0;
      left: 0;
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
-     background: #00FF00; /* some styling */
-     border-bottom: 1px solid #333; /* some styling */
+     background: #000000; /* some styling */
+     border-bottom: 4px solid #5D5D5D; /* some styling */
+     display:flex;
 }
 .line{
     width: 10%;
@@ -47,7 +48,7 @@ a{
     color:#CC0000;
 }
 .ultraSonic{
-    background-image: url("Resources/ultrasonic_sensor_darkGreen.jpg");
+    background-image: url("Resources/ultrasonic_sensor_darkGreenResized.jpg");
     background-size: cover;
     height:100%;
     margin-top:-45px;
@@ -73,4 +74,10 @@ footer{
     outline-width:50%;
     height:50px;
     width:50px;
+}
+
+.page{
+    height:33;
+    padding:4px 2px;
+    outline:#5D5D5D solid 2px;
 }

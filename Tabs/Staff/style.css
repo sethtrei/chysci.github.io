@@ -2,7 +2,7 @@
  a {text-decoration: none;}
 @font-face {
     font-family: 'BTTF'; /*a name to be used later*/
-    src: url('http://sethtrei.github.io/chysci.github.io/Resources/BTTF.ttf'); /*URL to font*/
+    src: url('https://sethtrei.github.io/chysci.github.io/Resources/BTTF.ttf'); /*URL to font*/
 }
 body { 
     text-align: center;
