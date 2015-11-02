@@ -81,3 +81,8 @@ footer{
     padding:4px 2px;
     outline:#5D5D5D solid 2px;
 }
+.logup{
+    height:50px;
+    width:75px;
+    border-radius:20%;
+}
