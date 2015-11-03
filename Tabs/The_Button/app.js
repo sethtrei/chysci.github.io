@@ -8,7 +8,7 @@ function startup(){
     if(snapshot.val()>=clickAmt){
       clickAmt = snapshot.val();
     }else {
-      myFirebaseRef.set({clicks:clickAmt});
+      myFirebaseRef.update({clicks:clickAmt});
     }
   });
 }
@@ -16,19 +16,19 @@ function updateClicks(){
   if(started = 1){
     myFirebaseRef.child("clicks").on("value", function(snapshot){
       if(numberOfClicks>snapshot.val()){
-        myFirebaseRef.set({
+        myFirebaseRef.update({
           clicks: numberOfClicks
         });
       } else {
         numberOfClicks = snapshot.val();
-        myFirebaseRef.set({clicks:numberOfClicks});
+        myFirebaseRef.update({clicks:numberOfClicks});
       }
     });
   } else {
     myFirebaseRef.child("clicks").on("value", function(snapshot){
       numberOfClicks = snapshot.val();
     });
-    myFirebaseRef.set({
+    myFirebaseRef.update({
       clicks: numberOfClicks
     });
   }
