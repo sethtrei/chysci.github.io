@@ -7,7 +7,7 @@
      text-align: left; 
      position: fixed;
      width: 100%;
-     height: 25px;
+     height: 45px;
      top: 0;
      left: 0;
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
@@ -16,10 +16,10 @@
      display:flex;
 }
 .page{
-    height:33;
-    padding:4px 2px;
-    outline:#5D5D5D solid 2px;
-    color:#CC0000;
+    height:33!important;
+    padding:4px 2px!important;
+    outline:#5D5D5D solid 2px!important;
+    color:#CC0000!important;
 }
 .round {
      border-radius: 50%;
@@ -39,4 +39,16 @@ button {
     height:50px;
     background:Red;
     font-family: 'BTTF';
+    color:black;
+}
+p{
+    color:black;
+}
+input{
+    color:black;
+}
+.changeEverything{
+    font-family:'BTTF';
+    color:#CC0000;
+    background:black;
 }
