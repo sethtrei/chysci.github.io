@@ -12,7 +12,7 @@
      text-align: left; 
      position: fixed;
      width: 100%;
-     height: 25px;
+     height: 45px;
      top: 0;
      left: 0;
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
@@ -43,6 +43,7 @@ body{
     text-align: center;
     font-family: 'BTTF';
     background-color:#14BE15;
+    color:black;
 }
 a{
     color:#CC0000;
@@ -58,7 +59,7 @@ a{
 }
 
 footer{
-    height:50px;
+    height:60px;
     width:100%;
     background-color:black;
     padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
@@ -74,6 +75,7 @@ footer{
     outline-width:50%;
     height:50px;
     width:50px;
+    text-align:center;
 }
 
 .page{
