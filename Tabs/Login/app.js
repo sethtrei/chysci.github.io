@@ -7,7 +7,6 @@ function authorize(){
     newRef = new Firebase("https://vivid-torch-4895.firebaseio.com/users/"+username+"/");
     newRef.child("email").on("value",function(snapshot){
         theEmail = snapshot.val();
-        alert(theEmail);
         fireAuth(username, password, newRef);
     });
 }
