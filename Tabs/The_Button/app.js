@@ -1,5 +1,4 @@
-// JavaScript File
-// button app
+// JavaScript File for button
 myFirebaseRef = new Firebase("https://vivid-torch-4895.firebaseio.com/");
 var clickAmt = 0;
 var started = 0;

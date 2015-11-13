@@ -1,4 +1,4 @@
-// JavaScript File
+// JavaScript File for login
 myFirebaseRef = new Firebase("https://vivid-torch-4895.firebaseio.com/");
 var theEmail;
 function authorize(){

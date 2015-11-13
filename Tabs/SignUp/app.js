@@ -1,4 +1,4 @@
-// JavaScript File
+// JavaScript File for signup
 myFirebaseRef = new Firebase("https://vivid-torch-4895.firebaseio.com/");
 
 function create(){
