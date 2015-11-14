@@ -1,12 +1,13 @@
 a {text-decoration: none;}
 @font-face {
     font-family: 'BTTF'; /*a name to be used later*/
-    src: url('https://www.sethtrei.github.io/chysci.github.io/Resources/BTTF.ttf'); /*URL to font*/
+    src: url('BTTF.ttf'); /*URL to font*/
 }
 
 
        
 .selector {
+    font-family: 'BTTF';    
      font-size: 25px;
      text-align: left; 
      position: fixed;
