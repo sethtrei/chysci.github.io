@@ -1,13 +1,9 @@
-a {text-decoration: none;}
 @font-face {
     font-family: 'BTTF'; /*a name to be used later*/
-    src: url('BTTF.ttf'); /*URL to font*/
+    src: url('https://sethtrei.github.io/chysci.github.io/Resources/BTTF.ttf'); /*URL to font*/
 }
-
-
-       
+    
 .selector {
-    font-family: 'BTTF';    
      font-size: 25px;
      text-align: left; 
      position: fixed;
@@ -20,13 +16,6 @@ a {text-decoration: none;}
      border-bottom: 4px solid #5D5D5D; /* some styling */
      display:flex;
 }
-.line{
-    width: 10%;
-    height:50px;
-    background:#00000;
-    padding: 5px 10px;
-}
-
 .round {
      border-radius: 50%;
      width : 33px;
@@ -34,9 +23,37 @@ a {text-decoration: none;}
      margin-top:-5px;
 }
 
-body{ 
-    text-align: center;
+button {
+    border-radius: 25%;
+    width:200px;
+    height:50px;
+    background:Red;
     font-family: 'BTTF';
-    background-color:#14BE15;
+    margin-left:36%;
+    margin-right:36%;
+    margin-top:345px;
+}
+
+body{
+    background:#1616BB;
+    font-family:'BTTF';
+    text-align:center;
     color:black;
+}
+
+.display4DaButton{
+    font-family:'BTTF';
+    margin-top:30px;
+}
+.page{
+    height:33;
+    padding:4px 2px;
+    outline:#5D5D5D solid 2px;
+    color:#CC0000;
+}
+.touchSensor{
+    background-image: url("https://sethtrei.github.io/chysci.github.io/Resources/touch_sensor_blue.jpg");
+    background-size: cover;
+    height:852px;
+    margin-top:-15px;
 }
