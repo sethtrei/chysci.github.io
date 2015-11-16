@@ -1,6 +1,6 @@
 # Chysci Robotics Group Website by Seth Treiman, Michael Ryan & Eli Toomer
 
-<a href="https://www.sethtrei.github.io/chysci.github.io"> Chysci Robotics </a>
+<a href="http://www.sethtrei.github.io/chysci.github.io"> Chysci Robotics </a>
 
 Chysci Robotics is a South Jersey based science group that is part of 4-H. We had a Weebly website but now that we now HTML, CSS and JS we can make our own site from scratch. 
 
