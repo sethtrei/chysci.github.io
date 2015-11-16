@@ -7,4 +7,3 @@ Chysci Robotics is a South Jersey based science group that is part of 4-H. We ha
 # Problems We Ran Into
 
 So far, making this website is going smoothly. We will probably never be done as there are endless possibilities. The only problem was getting @XenonMolecule to get credit for his commits. When he would commit it would say @sethtrei did the commit.Chysci Robotics Group Website
-
